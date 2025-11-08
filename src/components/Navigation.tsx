@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,12 +16,12 @@ export const Navigation = () => {
   }, []);
 
   const navItems = [
-    { label: 'Home', href: '#home' },
+    { label: 'About', href: '#about' },
     { label: 'Education', href: '#education' },
     { label: 'Experience', href: '#experience' },
     { label: 'Projects', href: '#projects' },
     { label: 'Skills', href: '#skills' },
-    { label: 'About', href: '#about' },
+    { label: 'Extra', href: '#extra' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -50,12 +50,9 @@ export const Navigation = () => {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => scrollToSection('#home')}
           >
-            <div className="p-2 bg-gradient-to-br from-teal-500 to-emerald-500 rounded-lg">
-              <Code2 className="w-5 h-5 text-white" />
+            <div className="p-1 bg-white rounded-lg">
+              <img className="w-8 h-8" src="/logo-512.png" alt="logo" />
             </div>
-            <span className="font-bold text-lg bg-gradient-to-r from-teal-400 to-emerald-400 bg-clip-text text-transparent hidden sm:inline">
-              DYLON
-            </span>
           </motion.div>
 
           <div className="hidden md:flex items-center gap-1">

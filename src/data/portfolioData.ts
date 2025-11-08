@@ -2,7 +2,7 @@ import { PortfolioData } from '../types/portfolio';
 
 export const portfolioData: PortfolioData = {
   name: "Dylon Chung Yee Wong",
-  location: "Malaysia",
+  location: ["Malaysia", "Singapore"],
   phone: "+6010-3520010",
   email: "dylonwcy@gmail.com",
   linkedin: "https://linkedin.com/in/dylonwcy",
@@ -57,13 +57,25 @@ export const portfolioData: PortfolioData = {
 
   projects: [
     {
+      name: "better-auth-rbac",
+      description: "A plugin extending better-auth to provide role-based access control (RBAC) functionality.",
+      technologies: ["TypeScript", "Node.js v24", "drizzle", "better-auth"],
+      highlights: [
+        "Simple and easy named based role management and permission query",
+        "Storing and checking permissions via any Database supported by better-auth",
+        "Customisable hasPermission check function"
+      ],
+      link: "https://github.com/Sleepytt1210/better-auth-rbac"
+    },
+    {
       name: "Discord Bot – Bili-Bot",
       description: "A Discord bot hosted on Heroku to play audio upon Discord user's request.",
-      technologies: ["TypeScript", "Node.js v16", "MongoDB"],
+      technologies: ["TypeScript", "Node.js v16", "MongoDB", "ffmpeg"],
       highlights: [
         "Perform async HTTP requests via the video server's RESTful API and pipe audio stream to the Discord voice channel",
         "Securely stored data in a NoSQL database (MongoDB) for request caching"
-      ]
+      ],
+      link: "https://github.com/Sleepytt1210/bili-bot"
     },
     {
       name: "FDM Group Gamification",
@@ -72,8 +84,8 @@ export const portfolioData: PortfolioData = {
       highlights: [
         "Designed quizzes relating to Business Intelligence, Technical Operation and Software Testing to improve student's learning experience",
         "Took account of vulnerabilities like SQL injection, XSS, LFI and XXE during development",
-        "Wrote a 3000-word detailed technical report on the project"
-      ]
+      ],
+      link: "https://github.com/Sleepytt1210/FDM-Gamification"
     },
     {
       name: "Animal Shelter Decentralised Application",
@@ -83,7 +95,8 @@ export const portfolioData: PortfolioData = {
         "Implemented trackable secure pet adoption and monetary donation features",
         "Prevented abuse of the system by enforcing a deposit upon an adoption request",
         "Allowed transparency of statistics and improved privacy of users by enabling anonymous adoption requests"
-      ]
+      ],
+      link: "https://github.com/Sleepytt1210/animal-shelters-dapp"
     },
     {
       name: "Blockchain-Based Federated Learning Intrusion Detection System",
@@ -93,7 +106,8 @@ export const portfolioData: PortfolioData = {
         "Uses a BiLSTM model to predict network attacks from network traffic packets",
         "The predictions from individual participants are aggregated into a global model using the Federated Averaging algorithm",
         "Data are secured by TLS communication and Hyperledger Fabric architecture"
-      ]
+      ],
+      link: "https://github.com/Sleepytt1210/BFLIDS"
     },
     {
       name: "ESBMC-Solidity - Contributor",
@@ -103,7 +117,8 @@ export const portfolioData: PortfolioData = {
         "Extended the static analysis tool using C++",
         "Extended the program to support more return types and correctly detect errors for inherited classes",
         "Identified and reported more issues to improve the program"
-      ]
+      ],
+      link: "https://github.com/esbmc/esbmc"
     }
   ],
 
@@ -114,7 +129,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Database",
-      items: ["MySQL", "PostgreSQL", "NoSQL (S3, MongoDB)"]
+      items: ["MySQL", "PostgreSQL", "NoSQL (S3, MongoDB)", "Redis"]
     },
     {
       category: "Linux & Security Tools",
@@ -126,7 +141,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       category: "Frameworks & Libraries",
-      items: ["React", "Next.js", "TanStack", "Laravel", "Spring Boot", "Hyperledger Fabric"]
+      items: ["React", "Hono", "Express", "Next.js", "TanStack", "Laravel", "Spring Boot", "Hyperledger Fabric", "Better Auth"]
     }
   ],
 

@@ -30,19 +30,19 @@ export const Footer = ({ email, linkedin, github }: FooterProps) => {
               href={linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-slate-800/50 border border-slate-700 rounded-lg hover:border-emerald-500/50 hover:bg-slate-800 transition-all duration-300"
+              className="p-3 bg-slate-800/50 border border-slate-700 rounded-lg hover:border-blue-500/50 hover:bg-slate-800 transition-all duration-300"
               aria-label="LinkedIn"
             >
-              <Linkedin className="w-5 h-5 text-slate-400 hover:text-emerald-400 transition-colors" />
+              <Linkedin className="w-5 h-5 text-slate-400 hover:text-blue-400 transition-colors" />
             </a>
             <a
               href={github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-slate-800/50 border border-slate-700 rounded-lg hover:border-amber-500/50 hover:bg-slate-800 transition-all duration-300"
+              className="p-3 bg-slate-800/50 border border-slate-700 rounded-lg hover:border-fuchsia-500/50 hover:bg-slate-800 transition-all duration-300"
               aria-label="GitHub"
             >
-              <Github className="w-5 h-5 text-slate-400 hover:text-amber-400 transition-colors" />
+              <Github className="w-5 h-5 text-slate-400 hover:text-fuchsia-400 transition-colors" />
             </a>
           </div>
 
@@ -50,7 +50,7 @@ export const Footer = ({ email, linkedin, github }: FooterProps) => {
             Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React, Vite & TanStack
           </p>
           <p className="text-slate-500 text-xs mt-2">
-            © {new Date().getFullYear()} Dylon Chung Yee Wong. All rights reserved.
+            © {new Date().getFullYear()} Dylon Wong Chung Yee. All rights reserved.
           </p>
         </motion.div>
       </div>

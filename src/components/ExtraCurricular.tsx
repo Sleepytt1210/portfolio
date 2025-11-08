@@ -18,7 +18,7 @@ export const ExtraCurricular = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-slate-900">
+    <section id="extra" className="py-20 bg-slate-900">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

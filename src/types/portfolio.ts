@@ -19,6 +19,7 @@ export interface Project {
   description: string;
   technologies: string[];
   highlights: string[];
+  link: string;
 }
 
 export interface Skill {
@@ -28,7 +29,7 @@ export interface Skill {
 
 export interface PortfolioData {
   name: string;
-  location: string;
+  location: string[];
   phone: string;
   email: string;
   linkedin: string;
