@@ -1,3 +1,3 @@
 export function getAssetUrl(path: string) {
-    return new URL(path, import.meta.env.BASE_URL).href;
+    return `${import.meta.env.BASE_URL}/${path}`;
 }
