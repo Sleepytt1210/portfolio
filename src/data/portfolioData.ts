@@ -16,7 +16,7 @@ export const portfolioData: PortfolioData = {
       institution: "University of Manchester",
       result: "First Class Honours",
       courses: ["Cryptography", "Network Security", "System Governance", "Automated Reasoning", "Software Security"],
-      link: "https://core.digitary.net/sharelink/cc1d4e5b-d54d-4aa6-a3b6-1eeea31283a8/671047b2-f8e9-46f0-8c84-7249923bef41",
+      link: "https://core.digitary.net/sharelink/4d700ca5-98a0-4a3f-b279-2b332e0836d7/fd1cfb56-c521-4481-a418-641f23a3757b",
     },
     {
       period: "September 2019 – June 2022",
@@ -24,7 +24,7 @@ export const portfolioData: PortfolioData = {
       institution: "Newcastle University",
       result: "First Class Honours",
       courses: ["Cryptography", "System and Network Security", "Information Storage", "Machine Learning", "Predictive Analysis", "Computer Vision"],
-      link: "https://core.digitary.net/sharelink/4d700ca5-98a0-4a3f-b279-2b332e0836d7/fd1cfb56-c521-4481-a418-641f23a3757b"
+      link: "https://core.digitary.net/sharelink/cc1d4e5b-d54d-4aa6-a3b6-1eeea31283a8/671047b2-f8e9-46f0-8c84-7249923bef41"
     }
   ],
 
