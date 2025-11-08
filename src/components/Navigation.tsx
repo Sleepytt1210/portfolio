@@ -51,7 +51,7 @@ export const Navigation = () => {
             onClick={() => scrollToSection('#home')}
           >
             <div className="p-1 bg-white rounded-lg">
-              <img className="w-8 h-8" src="/logo-512.png" alt="logo" />
+              <img className="w-8 h-8" src="/portfolio/logo-512.png" alt="logo" />
             </div>
           </motion.div>
 
