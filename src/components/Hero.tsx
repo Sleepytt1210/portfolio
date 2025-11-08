@@ -125,22 +125,17 @@ export const Hero = ({ name, location, email, linkedin, github, bio }: HeroProps
 						</div>
 					</motion.div>
 				</motion.div>
-			</div>
 
-			<motion.div
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ delay: 1, duration: 1 }}
-				className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-			>
-				<motion.div
-					animate={{ y: [0, 10, 0] }}
-					transition={{ repeat: Infinity, duration: 2 }}
-					className="flex items-start justify-center p-2"
-				>
-          <Mouse size={32} strokeWidth={1.5} className="text-slate-500" />
+				<motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1, duration: 1 }} className="mt-6">
+					<motion.div
+						animate={{ y: [0, 10, 0] }}
+						transition={{ repeat: Infinity, duration: 2 }}
+						className="flex items-start justify-center p-2"
+					>
+						<Mouse size={32} strokeWidth={1.5} className="text-slate-500" />
+					</motion.div>
 				</motion.div>
-			</motion.div>
+			</div>
 		</section>
 	);
 };
