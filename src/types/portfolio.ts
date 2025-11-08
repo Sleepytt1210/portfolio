@@ -4,6 +4,7 @@ export interface Education {
   institution: string;
   result?: string;
   courses: string[];
+  link: string;
 }
 
 export interface Experience {
