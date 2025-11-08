@@ -33,6 +33,7 @@ export const Education = ({ education }: EducationProps) => {
               viewport={{ once: true }}
               className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-teal-500/50 transition-all duration-300"
             >
+              <a href={edu.link}>
               <p className="text-sm text-teal-400 font-medium mb-3">{edu.period}</p>
               <h3 className="text-xl font-bold text-white mb-2 leading-tight">{edu.degree}</h3>
               <p className="text-slate-300 font-medium mb-4">{edu.institution}</p>
@@ -56,6 +57,7 @@ export const Education = ({ education }: EducationProps) => {
                   ))}
                 </div>
               </div>
+                </a>
             </motion.div>
           ))}
         </div>
