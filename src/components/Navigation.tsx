@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { getAssetUrl } from '../utils';
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,7 @@ export const Navigation = () => {
             onClick={() => scrollToSection('#home')}
           >
             <div className="p-1 bg-white rounded-lg">
-              <img className="w-8 h-8" src="/portfolio/logo-512.png" alt="logo" />
+              <img className="w-8 h-8" src={getAssetUrl("logo-512.png")} alt="logo" />
             </div>
           </motion.div>
 

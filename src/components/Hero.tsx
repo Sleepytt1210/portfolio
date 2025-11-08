@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Mail, MapPin, Github, Linkedin, Shield, Code2, Database, Download, Mouse } from "lucide-react";
+import { getAssetUrl } from "../utils";
 
 interface HeroProps {
 	name: string;
@@ -102,7 +103,7 @@ export const Hero = ({ name, location, email, linkedin, github, bio }: HeroProps
 							<span className="text-sm">GitHub</span>
 						</a>
 						<a
-							href="/resume.pdf"
+							href={getAssetUrl("resume.pdf")}
 							download
 							target="_blank"
 							rel="noopener noreferrer"
