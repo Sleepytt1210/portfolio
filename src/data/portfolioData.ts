@@ -34,8 +34,7 @@ export const portfolioData: PortfolioData = {
       title: "Full Stack Developer",
       company: "AGSmart IT Sdn Bhd",
       responsibilities: [
-        "Develop and maintain payment gateway solution that supports most Malaysia mainstream banks, DuitNow QR and web3",
-        "Develop and maintain customised dashboard with reporting and analysis tools",
+        "Develop and maintain multiple projects including several customised cms applications, RESTful APIs and web applications with web3 integrations",
         "Uses Laravel (PHP), TypeScript and Python for backend; React (Next.js, Tanstack, Tailwindcss...), Laravel Blade (PHP + HTML + JavaScript) for frontend",
         "Manages cloud deployment with popular providers like AWS, Vultr and Digital Ocean",
         "Utilises container orchestration tools such as Docker and Kubernetes. Automates the deployment using Ansible",
